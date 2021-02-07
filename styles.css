@@ -84,7 +84,7 @@ a{
         margin-left: auto;
         margin-right: auto;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr auto;
     }
     .me{
         float: none;
