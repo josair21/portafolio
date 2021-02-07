@@ -71,6 +71,9 @@ a{
     .nav-main{
         background: red;
     }
+    .categories{
+        display: none;
+    }
     .showcase{
         display: grid;
         margin-left: auto;
