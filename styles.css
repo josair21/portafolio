@@ -16,6 +16,11 @@ a{
     color: white;
     text-decoration: none;
 }
+.menu{
+    display: none;
+    font-size: 60px;
+    color: white;
+}
 .container{
     width: 85%;
     margin: auto;
@@ -68,8 +73,8 @@ a{
 }
 
 @media(max-width: 500px){
-    .nav-main{
-        background: red;
+    .menu{
+        display: flex;
     }
     .categories{
         display: none;
@@ -98,5 +103,20 @@ a{
     }
     .about{
         text-align: center;
+    }
+    .categories{
+        transform: translateX(-400px);
+        transition: transform 0.5s ease-in-out;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #2f3640;
+        height: auto;
+        padding: 30px;
+        opacity: 0.8;
+    }
+    .categories.show{
+        transform: translateX(-20px);
     }
 }
