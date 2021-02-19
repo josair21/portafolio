@@ -31,67 +31,7 @@ a{
 li{
     list-style-type: none; 
  }
-/*Container*/
-.container{
-    width: 85%;
-    margin: auto;
-}
-.nav-main{
-    height: 60px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    align-content: space-between;
-    display: flex;
-    justify-content: space-between;
-}
-.logo{
-    height: 60px;
-}
-.categories{
-    font-size: 25px;
-    align-items: center;
-    display: flex;    
-}
-.menu{
-    display: none;
-    font-size: 60px;
-    color: white;
-}
-.nav-main li{
-    padding: 20px;
-}
-/*Showcase*/
-.showcase{
-    display: none;
-}
-.showcase.show{  
-    display: block;
-    align-items: center;
-    align-content: center;
-    margin: 10%;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 20px;
-}
-.me{
-    width: 300px;
-    float: right;
-}
-.principal{
-    
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-}
-.name{
-    
-    color: white;
-    font-size: 30px;  
-    text-align: left;
-}
-.about{
-    text-align: left;
-    color: whitesmoke;
-}
+
 /*Projects*/
 .project{
     display: none;
@@ -105,36 +45,7 @@ li{
     align-content: center;
     align-items: center;
 }
-/*STraffic Light*/
-.traffic_light{
-    grid-template-rows: auto auto auto;
-    display: grid;
-}
-.traffic_light_title{
-    color: blanchedalmond;
-}
-.traffic_light_title:hover{
-    color: darkgrey;
-}
-.traffic_light_description{
-    display: none;
-}
-.traffic_light_description.show{
-    display: block;
-    color: white;
-}
-.traffic_light_photo{
-    display: none;
-}
-.traffic_light_photo.show{
-    margin-top: 10px;
-    display: block;
-}
-.traffic_light_photo_show{
-    margin: auto;
-    display: block;
-    width: 800px;
-}
+
 /*Temperature Arduino*/
 .temperature_arduino{
     grid-template-rows: auto auto auto;
@@ -162,7 +73,7 @@ li{
     display: block;
     width: 800px;
 }
-@media(max-width: 500px){
+/* @media(max-width: 500px){
     .menu{
         display: flex;
     }
@@ -209,4 +120,4 @@ li{
     .categories.show{
         transform: translateX(-20px);
     }
-}
+} */

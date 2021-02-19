@@ -1,0 +1,29 @@
+/*Header*/
+.header{
+    width: 85%;
+    margin: auto;
+}
+.nav-main{
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    align-content: space-between;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 60px;
+}
+.categories{
+    font-size: 25px;
+    align-items: center;
+    display: flex;    
+}
+.menu{
+    display: none;
+    font-size: 60px;
+    color: white;
+}
+.nav-main li{
+    padding: 20px;
+}

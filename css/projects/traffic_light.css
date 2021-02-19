@@ -1,0 +1,31 @@
+/*STraffic Light*/
+.traffic_light{
+    grid-template-rows: auto auto auto;
+    display: grid;
+}
+.traffic_light_title{
+    color: blanchedalmond;
+}
+.traffic_light_title_btn:hover{
+    opacity: 0.7;
+    background-color: black;
+}
+.traffic_light_description{
+    display: none;
+}
+.traffic_light_description.show{
+    display: block;
+    color: white;
+}
+.traffic_light_photo{
+    display: none;
+}
+.traffic_light_photo.show{
+    margin-top: 10px;
+    display: block;
+}
+.traffic_light_photo_show{
+    margin: auto;
+    display: block;
+    width: 800px;
+}

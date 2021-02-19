@@ -1,0 +1,32 @@
+/*About*/
+.about{
+    display: none;
+}
+.about.show{  
+    display: block;
+    align-items: center;
+    align-content: center;
+    margin: 10%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+.about_photo_show{
+    width: 300px;
+    float: right;
+}
+.about.text{
+    
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.about_text_name{
+    
+    color: white;
+    font-size: 30px;  
+    text-align: left;
+}
+.about_text_decription{
+    text-align: left;
+    color: whitesmoke;
+}
