@@ -1,19 +1,8 @@
 /*About*/
-.about{
-    display: none;
-}
-.about.show{  
-    display: block;
-    align-items: center;
-    align-content: center;
-    margin: 10%;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 20px;
-}
 .about_photo_show{
     width: 300px;
     float: right;
+    border-radius: 50%;
 }
 .about.text{
     

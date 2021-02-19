@@ -1,0 +1,27 @@
+/*Temperature Arduino*/
+.temperature_arduino{
+    grid-template-rows: auto auto auto;
+    display: grid;
+}
+.temperature_arduino_title{
+    color: blanchedalmond;
+}
+.temperature_arduino_description{
+    display: none;
+}
+.temperature_arduino_description.show{
+    display: block;
+    color: white;
+}
+.temperature_arduino_photo{
+    display: none;
+}
+.temperature_arduino_photo.show{
+    margin-top: 10px;
+    display: block;
+}
+.temperature_arduino_photo_show{
+    margin: auto;
+    display: block;
+    width: 800px;
+}
