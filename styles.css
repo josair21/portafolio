@@ -44,7 +44,11 @@ a{
 .nav-main li{
     padding: 20px;
 }
-.showcase{  
+.showcase{
+    display: none;
+}
+.showcase.show{  
+    display: block;
     align-items: center;
     align-content: center;
     margin: 10%;
@@ -71,6 +75,19 @@ a{
     text-align: left;
     color: whitesmoke;
 }
+.project{
+    display: none;
+}
+.project.show{
+    grid-template-rows: auto auto auto;
+    display: grid;
+    color: white;
+    margin: 10%;
+    text-align: center;
+}
+.assembler{
+    
+}
 
 @media(max-width: 500px){
     .menu{
@@ -79,7 +96,7 @@ a{
     .categories{
         display: none;
     }
-    .showcase{
+    .showcase.show{
         display: grid;
         margin-left: auto;
         margin-right: auto;
