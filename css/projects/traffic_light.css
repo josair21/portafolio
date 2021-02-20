@@ -2,13 +2,10 @@
 .traffic_light{
     grid-template-rows: auto auto auto;
     display: grid;
+    margin-bottom: 20px;
 }
 .traffic_light_title{
     color: blanchedalmond;
-}
-.traffic_light_title_btn:hover{
-    opacity: 0.7;
-    background-color: black;
 }
 .traffic_light_description{
     display: none;

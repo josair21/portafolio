@@ -37,11 +37,11 @@ li{
  .about{
     display: none;
 }
-.about.show{  
+.about{  
     display: block;
     align-items: center;
     align-content: center;
-    margin: 10% 30%;
+    margin: 10% 25%;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
@@ -50,7 +50,7 @@ li{
 .project{
     display: none;
 }
-.project.show{
+.project{
     grid-template-rows: auto auto auto;
     display: grid;
     color: white;

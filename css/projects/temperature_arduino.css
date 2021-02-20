@@ -2,6 +2,8 @@
 .temperature_arduino{
     grid-template-rows: auto auto auto;
     display: grid;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .temperature_arduino_title{
     color: blanchedalmond;

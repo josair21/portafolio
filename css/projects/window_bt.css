@@ -1,0 +1,34 @@
+.window_bt{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.window_bt_title{
+    color: blanchedalmond;
+}
+.window_bt_description{
+    display: none;
+}
+.window_bt_description.show{
+    display: block;
+    color: white;
+}
+.window_bt_photo{
+    display: none;
+}
+.window_bt_photo.show{
+    margin: 10px auto;
+    grid-template-columns: auto auto;
+    display: grid;
+}
+.window_bt_photo_show{
+    display: inline-block;
+    width: 550px ;
+    float: right;
+}
+.window_bt_photo_2_show{
+    display: inline-block;
+    float: left;
+    height: 490px;
+}

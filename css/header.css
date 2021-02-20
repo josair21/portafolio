@@ -2,28 +2,29 @@
 .header{
     width: 85%;
     margin: auto;
+    position: fixed;
+    margin: 10px;
+    grid-template-columns: auto auto;
+    display: grid;
+
 }
-.nav-main{
-    height: 60px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    align-content: space-between;
-    display: flex;
-    justify-content: space-between;
-}
-.logo{
+.header_logo{
+    float: right;
     height: 60px;
 }
-.categories{
+.header_categories{
+    text-align: right;
+    margin: auto;
     font-size: 25px;
     align-items: center;
-    display: flex;    
+    grid-template-columns: auto auto auto;
+    display: grid;    
 }
-.menu{
+.header_menu{
     display: none;
     font-size: 60px;
     color: white;
 }
-.nav-main li{
+.header li{
     padding: 20px;
 }

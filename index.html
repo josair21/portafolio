@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="css/about/about.css">
     <link rel="stylesheet" href="css/projects/temperature_arduino.css">
+    <link rel="stylesheet" href="/css/projects/window_bt.css">
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <!-- Font Cinzel -->
@@ -27,24 +28,22 @@
 </head>
 <body>
     
-    <div class="header">
-        <nav class="nav-main">
-            <img src="/img/about/logo.jpg" alt="LOGO" class="logo">
-            <ul class="categories">
+    <div class="header" id="home">
+            <img src="/img/about/logo.jpg" alt="LOGO" class="header_logo">
+            <div class="header_categories">
                 <li class=about_btn>
                     <a href="#">About</a>
                 </li>
                 <li class=project_btn>
-                    <a href="#">Projects</a>
+                    <a href="#project_id">Projects</a>
                 </li>
-                <li>
+                <li class="concact_btn">
                     <a href="#">Contact</a>
                 </li>
-            </ul>
-            <div class="menu">
+            </div>
+            <div class="header_menu">
                 <i class="fas fa-bars"></i>
             </div>
-        </nav>
     </div>
     <hr>
     <header class="about">
@@ -61,21 +60,22 @@
             </div>
         </div>        
     </header>
-    <header class="project">
+    <header class="project" id="project_id">
         <div class="traffic_light">
             <div class="traffic_light_title">
-                <a href="#" ><h1 class='traffic_light_title_btn'>Traffic Light with PIC ASM</h1></a>
+                <a href="#traffic_light" ><h1 class='traffic_light_title_btn'>Traffic Light with PIC ASM</h1></a>
             </div>
             <div class="traffic_light_description">
-                <p>This porject is about two traffic lights, while one of them is green lighted other is red, and vice versa.</p>
+                <p>This porject is about two traffic lights, while one of them is green lighted other is red, and vice versa. Based in PIC, programmed in assembler languaje </p>
             </div>
             <div class="traffic_light_photo">          
                 <img src="/img/project/traffic_light.jpg" alt="Traffic Light" class="traffic_light_photo_show">
             </div>
         </div>
+        <hr>
         <div class="temperature_arduino">
             <div class="temperature_arduino_title">
-                <a href="#"><h1>Temperature meter with Arduino & LCD 20x4</h1></a>
+                <a href="#temperature_arduino"><h1>Temperature meter with Arduino & LCD 20x4</h1></a>
             </div>
             <div class="temperature_arduino_description">
                 <p>Using two temperature sensors, one of them for ambient temperature, the remaining sensor is used for body sensing, all data captures is showed in a LCD screen 20x4 using Arduino</p>
@@ -84,8 +84,18 @@
                 <img src="/img/project/temperature_meter.png" alt="Temperature Meter with Arduino" class="temperature_arduino_photo_show">
             </div>
         </div>
-        </div>
-        <div class="water_level_pic">
+        <hr>
+        <div class="window_bt">
+            <div class="window_bt_title">
+                <a href="#window_bt"><h1>Window controlled by smartphone via bluetooth</h1></a>
+            </div>
+            <div class="window_bt_description">
+                <p>Bluetooth module needed, in this case I'm using HC-06, and an app made in app-inventor, the motor is a servomotor used for open/close the window, all of this is based on Arduino</p>
+            </div>
+            <div class="window_bt_photo">          
+                <img src="/img/project/window_bt.jpg" alt="Window controlled with smartphone via bluetooth" class="window_bt_photo_show">
+                <img src="/img/project/window_bt_2.jpg" alt="App for android" class="window_bt_photo_2_show">
+            </div>
         </div>
     </header>
     <!-- Scripts -->
