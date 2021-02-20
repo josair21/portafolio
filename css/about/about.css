@@ -1,5 +1,7 @@
 /*About*/
 .about_photo_show{
+    margin-top: 30px;
+    margin-bottom: 30px;
     width: 300px;
     float: right;
     border-radius: 50%;
@@ -10,9 +12,10 @@
     grid-template-rows: 1fr 1fr;
 }
 .about_text_name{
-    
-    color: white;
-    font-size: 30px;  
+    text-shadow: 2px 2px orangered;
+    font-family: 'Rock Salt', cursive;
+    color: olive;
+    font-size: 24px;  
     text-align: left;
 }
 .about_text_decription{

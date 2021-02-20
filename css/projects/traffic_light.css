@@ -3,6 +3,7 @@
     grid-template-rows: auto auto auto;
     display: grid;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .traffic_light_title{
     color: blanchedalmond;

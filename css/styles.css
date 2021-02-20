@@ -22,28 +22,24 @@ body{
 		background-position: 0% 50%;
 	}
 }
-a{
-    color: white;
-    text-decoration: none;
-}
-a:hover{
-    color: black;
-    background-color: blanchedalmond;
-}
+
 li{
     list-style-type: none; 
+    float: right;
  }
  /* About */
  .about{
     display: none;
 }
-.about{  
+.about{
+    background-color:rgba(99, 160, 211, 0.2);
+    behavior: url(/PIE.htc);  
     display: block;
     align-items: center;
     align-content: center;
-    margin: 10% 25%;
+    margin: 10% 10%;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
     gap: 20px;
 }
 /*Projects*/
@@ -51,6 +47,7 @@ li{
     display: none;
 }
 .project{
+    background-color:rgba(99, 160, 211, 0.2);
     grid-template-rows: auto auto auto;
     display: grid;
     color: white;
