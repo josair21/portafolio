@@ -2,7 +2,7 @@ ScrollReveal().reveal('.header',{delay: 1000});
 ScrollReveal().reveal('.news-cards',{delay:500});
 ScrollReveal().reveal('.cards-banner-one',{delay:500});
 ScrollReveal().reveal('.cards-banner-two',{delay:500});
-document.querySelector('.menu').addEventListener('click',() => {
+document.querySelector('.header_menu').addEventListener('click',() => {
     document.querySelector('.categories').classList.toggle('show');
 });
 document.querySelector('.about_btn').addEventListener('click',() => {

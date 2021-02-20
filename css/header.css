@@ -1,24 +1,26 @@
 /*Header*/
 .header{
-    width: 85%;
-    margin: auto;
+    background-color: white;
+    width: 100%;
     position: fixed;
     margin: 10px;
     grid-template-columns: auto auto;
     display: grid;
-
 }
 .header_logo{
-    float: right;
     height: 60px;
 }
 .header_categories{
-    text-align: right;
     margin: auto;
     font-size: 25px;
-    align-items: center;
+    align-items: right;
     grid-template-columns: auto auto auto;
-    display: grid;    
+    display: grid;  
+    justify-content: end;  
+}
+.about_btn{
+
+
 }
 .header_menu{
     display: none;
