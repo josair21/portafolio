@@ -12,6 +12,7 @@
     display: none;
 }
 .traffic_light_description.show{
+    margin-top: 20px;
     display: block;
     color: white;
 }
@@ -19,7 +20,7 @@
     display: none;
 }
 .traffic_light_photo.show{
-    margin-top: 10px;
+    margin-top: 20px;
     display: block;
 }
 .traffic_light_photo_show{

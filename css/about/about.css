@@ -6,19 +6,19 @@
     float: right;
     border-radius: 50%;
 }
-.about.text{
-    
+.about_text{
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
 }
 .about_text_name{
     text-shadow: 2px 2px orangered;
-    font-family: 'Rock Salt', cursive;
+    /* font-family: 'Rock Salt', cursive; */
     color: olive;
-    font-size: 24px;  
+    font-size: 40px;  
     text-align: left;
+    ;
 }
-.about_text_decription{
-    text-align: left;
+.about_text_description{
+    text-align: justify;
     color: whitesmoke;
 }

@@ -12,6 +12,7 @@
     display: none;
 }
 .temperature_arduino_description.show{
+    margin-top: 20px;
     display: block;
     color: white;
 }
@@ -19,7 +20,7 @@
     display: none;
 }
 .temperature_arduino_photo.show{
-    margin-top: 10px;
+    margin-top: 20px;
     display: block;
 }
 .temperature_arduino_photo_show{
